@@ -1,0 +1,113 @@
+/* work section */
+.work{
+    margin-top: -20px;
+    background: var(--secondary-dark);
+    width: 100%;
+}
+.work-inner{
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+}
+.work-inner .title p{
+    color: var(--primary);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.work-inner .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.work-inner .body .body-left,
+.work-inner .body .body-middle,
+.work-inner .body .body-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.work-logo{
+    width: 105px;
+    height: 105px;
+    border: 1px solid rgba(154, 154, 187, 0.282);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(2, 2, 130, 0.679);
+}
+.work-inner .body .body-left span,
+.work-inner .body .body-middle span,
+.work-inner .body .body-right span{
+    color: var(--secondary-light);
+}
+.work-inner .body .body-left p,
+.work-inner .body .body-middle p,
+.work-inner .body .body-right p{
+    color: var(--primary);
+    letter-spacing: 2px;
+    opacity: 0.7;
+    padding-top: 30px;
+}
+.body-second, .body-second img, .body-fourth, .body-fourth img{
+    width: 135px;
+    height: 38px;
+    position: absolute;
+    top: -100%;
+}
+.work-inner .body .body-second, .work-inner .body .body-fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 38px;
+    position: relative;
+}
+@media only screen and (max-width: 1200px) { 
+    .body-second, .body-second img, .body-fourth, .body-fourth img{
+        width: 80px;
+        height: 30px;
+    }
+    .work-inner .body .body-second, .work-inner .body .body-fourth{
+        width: 80px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 1050px) { 
+    .body-second, .body-second img, .body-fourth, .body-fourth img{
+        top: -160%;
+    }    
+}
+@media only screen and (max-width: 768px) { 
+    .work-inner .body{
+        justify-content: space-between;
+    }
+    .work-logo{
+        width: 80px;
+        height: 80px;
+    }
+    .body-second, .body-second img, .body-fourth, .body-fourth img{
+        width: 70px;
+        height: 30px;
+    }
+    .work-inner .body .body-second, .work-inner .body .body-fourth{
+        width: 70px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 620px) { 
+    .body-second, .body-second img, .body-fourth, .body-fourth img{
+        width: 40px;
+        height: 30px;
+    }
+    .work-inner .body .body-second, .work-inner .body .body-fourth{
+        width: 40px;
+        height: 30px;
+    }
+}

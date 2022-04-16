@@ -1,0 +1,92 @@
+/* blog */
+.blog{
+    width: 100%   
+}
+.blog-inner{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.blog-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+    line-height: 16px;
+}
+.blog-head .title p{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.blog-head .details p{
+    color: var(--light);
+    margin-top: -10px;
+}
+.blog-btn{
+    display: inline-block;
+    cursor: pointer;
+}
+.blog-body{
+    display: flex;
+    color: var(--light);
+    flex-wrap: wrap;
+}
+.user{
+    flex: 1 1 200px;   
+    display: none;
+    padding-bottom: 50px;
+}
+.user:nth-child(1){
+    display: inline-block;
+}
+.user:nth-child(2){
+    display: inline-block;
+}
+.user:nth-child(3){
+    display: inline-block;
+}
+.user .user-image, .user .user-image img{
+    width: 300px;
+    height: 120px;
+}
+.user hr{
+    display: block;
+    height: 1px;
+    width: 80%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: -5px 0;
+    padding: 0;
+}
+.user-description{
+    width: 90%;
+}
+.user .blog-name{
+    border-left: 4px solid var(--secondary-light);
+    padding-left: 8px;
+    width: 90%;
+}
+.user .blog-date{
+    margin-top: -10px;
+    padding-left: 12px;
+    color: var(--light);
+}
+.user .blog-date span{
+    color: var(--secondary-light);
+}
+.blog-btn{
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: var(--primary);
+    border: 1px solid rgb(15, 15, 133);
+    color: var(--secondary-dark);
+    border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+/* motto section */
+.motto{
+    width: 100%;
+}
+.motto-inner{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.motto .title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    flex: 1;
+}
+.motto .description{
+    color: var(--light);
+    margin-bottom: 16px;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 834px){
+    .motto-inner{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding: 20px;
+    }
+    .motto .description{
+        margin-top: -40px;
+    }
+}

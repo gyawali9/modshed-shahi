@@ -1,0 +1,244 @@
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-top{
+    background: rgba(0, 0, 0, 0.844);
+    color: var(--primary);
+    padding: 10px 0;
+}
+.top-inner{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.install, .finance,.service, .reviews{
+    display: flex;
+}
+.top-inner .pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+.top-inner .details .title{
+    line-height: 6px;
+    font-size:0.8rem;
+}
+
+/* footer center */
+.footer-center{
+    background: var(--secondary-dark)
+}
+.footer-center-inner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-center-left{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.center-about, .center-help, .center-resources{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+.center-about .title p, .center-help .title p, .center-resources .title p{
+    text-transform: uppercase;
+    color: var(--secondary-light);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.center-about .body p, .center-help .body p, .center-resources .body p{
+  color: var(--secondary-medium);
+  line-height: 8px;
+  font-size: 14px;
+}
+.footer-center-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.footer-center-right .top{
+    display: flex;
+    flex-direction: column;
+}
+.footer-center-right .top input{
+    max-width: 180px;
+    outline: none;
+    border: none;
+    background: rgb(7, 7, 100);
+    padding: 6px;
+}
+.subscribe{
+    background: rgb(250, 165, 6);
+    color: var(--primary);
+    border: none;
+    outline: none;
+    padding: 6px 14px;
+}
+.footer-center-right .end{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-center-right .top p,.footer-center-right .end p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--secondary-light);
+}
+
+/* payment */
+.payment-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+}
+.payment-logo .visa, .payment-logo .paypal{
+    width: 48px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.payment-logo .mastercard{
+    width: 45px;
+    height: 43px 
+}
+.payment-logo .americanexpress{
+  width: 65px;
+  height: 45px
+
+}
+.payment-logo .visa img, .payment-logo .paypal img{
+  width: 48px;
+  height: 25px;
+  background: var(--primary);
+  border-radius: 3px;
+
+}
+.payment-logo .mastercard img{
+  width: 45px;
+  height: 43px ;
+}
+.payment-logo .americanexpress img{
+  width: 65px;
+  height: 45px 
+}
+.social-links{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -15px;
+   gap: 10px;
+   opacity: 0.8;
+   padding-right: 16px;
+}
+.facebook, .linkedin, .twitter, .instagram, .rss{
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--primary);
+  opacity: 0.8;
+}
+
+/* footer end */
+.footer-end{
+  color: var(--primary);
+  font-size: 14px;
+  background: var(--secondary-dark);
+}
+.footer-end-inner{
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-end-left p{
+    opacity: 0.8;
+    font-size: 12px;
+}
+.footer-end-right p{
+    opacity: 0.8;
+    font-size: 12px;
+
+}
+@media only screen and (max-width: 900px){
+   .top-inner{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding-left: 80px;
+   }
+}
+@media only screen and (max-width: 550px){
+   .footer-end{
+       padding-top: 20px;
+   }
+   .footer-end-inner{
+       display: grid;
+       grid-template-columns: 1fr;
+       text-align: center;
+    }
+    .footer-end-inner .footer-end-right {      
+        margin-top: -25px;
+   }
+}
+
+@media only screen and (max-width: 500px){
+   .top-inner{
+       padding-left: 0;
+       font-size: 10px;
+   }
+   .top-inner .details .title{
+      line-height: 4px;
+      font-size:0.6rem;
+    }
+}
+@media only screen and (max-width: 360px){
+  .top-inner{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .install, .finance,.service, .reviews{
+      border-bottom: 1px solid var(--primary);
+      width: 60%;
+      margin: 0 auto;
+      opacity: 0.6;
+  }
+}
+@media only screen and (max-width: 768px){
+  .footer-center-inner{
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .footer-center-right .top{
+      text-align: center;
+  }
+  .footer-center-right .end .left{
+      padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 475px){
+  .footer-center-right .end{
+      display: grid;
+      grid-template-columns: 1fr; 
+  }
+  .footer-center-right .top p,.footer-center-right .end p{
+      text-align: center;
+  }
+  .social-links{
+      justify-content: center;
+  }
+}

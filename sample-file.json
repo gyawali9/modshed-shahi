@@ -1,0 +1,56 @@
+[
+    {
+        "name": "The Properties of Timber",
+        "date": "14-May-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus, enim perferendis est quam incidunt.",
+        "imageSource": "assets/img/banner1.jpg"
+    },
+    {
+        "name": "How a log cabin adds value to a Property (Series 1)",
+        "date": "20-May-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia laborum autem.",
+        "imageSource": "assets/img/banner4.jpg"
+    },
+    {
+        "name": "Storing TImber",
+        "date": "14-May-2020",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero sint ratione at aliquid aspernatur?",
+        "imageSource": "assets/img/banner3.jpg"
+    },
+    {
+        "name": "Randomness",
+        "date": "14-March-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus, enim perferendis est quam incidunt.",
+        "imageSource": "assets/img/banner2.jpg"
+    },
+    {
+        "name": "How a log cabin adds value to a Property (Series 2)",
+        "date": "20-June-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia laborum autem.",
+        "imageSource": "assets/img/banner1.jpg"
+    },
+    {
+        "name": "Temporary Storage Ideas: Part 1",
+        "date": "14-May-2020",
+        "description": "Lorem, ipsum dolor sit amet consectetur sint ratione at aliquid aspernatur?",
+        "imageSource": "assets/img/banner4.jpg"
+    },
+    {
+        "name": "The Properties of Teak",
+        "date": "1-May-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus, enim perferendis est quam incidunt.",
+        "imageSource": "assets/img/banner3.jpg"
+    },
+    {
+        "name": "How a log cabin adds value to a Property (Series 3)",
+        "date": "2-March-2020",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse officia laborum autem.",
+        "imageSource": "assets/img/banner2.jpg"
+    },
+    {
+        "name": "Temporary Storage Ideas: Part 2",
+        "date": "14-May-2020",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero sint ratione at aliquid aspernatur?",
+        "imageSource": "assets/img/banner1.jpg"
+    }
+]

@@ -1,0 +1,133 @@
+/* testimonial section */
+.testimonial{
+    width: 100%;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.testimonial-inner{
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px;
+}
+.testimonial-video{
+    margin-right: 60px;
+}
+.testimonial-video video{
+    cursor: pointer;
+}
+.testimonial-details{
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-details .title p{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.testimonial-details .description{
+    margin-top: -16px;
+}
+.testimonial-details .description p{
+    color: var(--light);
+}
+.stars-container{
+    color: gold;
+}
+.client-details{
+    line-height: 5px; 
+}
+.client-name p{
+    font-weight: 600;
+}
+.client-address p{
+    color: var(--light);
+}
+@media only screen and (max-width: 1650px){
+   .testimonial-inner{
+       width: 60%;
+   }
+}
+@media only screen and (max-width: 1100px){
+    .testimonial-inner{
+        width: 80%
+    }
+}
+@media only screen and (max-width: 834px){
+    .testimonial-video{
+        margin-right: 10px;
+    }
+    .testimonial-video video{
+        width: 200px;
+    }
+    .testimonial-details{
+        line-height: 16px;
+    }
+    .testimonial-details .description{
+        margin-top: -15px;
+    }
+}
+@media only screen and (max-width: 500px){
+   .testimonial-inner{
+       flex-direction: column;
+   }
+   .testimonial-video video{
+       width: 300px;
+   }
+   .testimonial-details .title{
+       font-size: 40px;
+   }
+   .testimonial-details .description{
+       font-size:12px;
+   }
+    .client-details{
+       line-height: 2px;
+       font-size: 12px;
+   }
+}
+.popup-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+}
+.popup-video video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    object-fit: cover;
+}
+.popup-video span{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+    z-index: 100;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px){
+    .popup-video video{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .popup-video video{
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 340px){
+    .popup-video video{
+        width: 280px;
+    }
+}

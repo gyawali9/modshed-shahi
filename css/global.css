@@ -1,0 +1,49 @@
+/* CSS Variables */
+:root{
+    --primary: #fff;
+    --secondary: rgb(20, 112, 165);
+    --secondary-dark: rgb(15, 15, 133);
+    --secondary-medium: rgb(80, 159, 220);
+    --secondary-light: rgb(104, 218, 233);
+    --dark: #000;
+    --light: rgba(0, 0, 0, 0.8);
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background: var(--primary);
+    line-height: 1.4;
+    margin: 0;
+    overflow-x: hidden;
+}
+.btn{
+    background: transparent;
+    color: var(--primary);
+    padding: 0.6rem;
+    text-decoration: none;
+    border: 0.5px solid var(--primary);
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+.btn:hover{
+    background: var(--secondary-medium);
+    opacity: 1;
+    border: none;
+}
+@media only screen and (max-width: 425px){
+    .btn{
+        padding: 0.4rem;
+        margin-right: 4px;
+    }
+}
+.img{
+    max-width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;     
+}
